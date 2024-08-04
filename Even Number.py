@@ -1,5 +1,7 @@
-# Using for loop
-# Even Numbers from 2-20:
+# Other Method:
+# -------------
 
-for i in range(2,21,2):
-    print(i, end=" ")
+count = 2
+while count<=20 :
+    print(count, end=" ")
+    count+=2
