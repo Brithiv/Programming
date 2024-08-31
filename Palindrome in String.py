@@ -2,7 +2,7 @@ num = "1221"
 lenght = len(num) -1
 reverse = ""
 
-while lenght >= 0:	# 'lenght' is just a 'index position', not 'value' but in next method it is a 'value'.
+while lenght >= 0:	
     reverse = reverse + num[lenght]
     lenght-=1
 print(reverse)
