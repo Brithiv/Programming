@@ -1,8 +1,8 @@
 num = int(input("Enter the number? "))
-num1 =num		# Take a copy of num = num1 (in next comment you will be knowing the answer)
+num1 =num		
 initial = 0
 
-while 0<num:		# 'while' will run until num>0 after that it will become num=0, inthose case you can't compare 'num' with 'initial'
+while 0<num:		
     initial = initial * 10 + num%10
     num=num//10
 print(initial)
