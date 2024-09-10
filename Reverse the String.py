@@ -6,3 +6,8 @@ while lenght >= 0:
     reverse = reverse + num[lenght]
     lenght-=1
 print(reverse)
+
+#     (OR)
+
+name = "Biruthivin"
+print(name[::-1])
