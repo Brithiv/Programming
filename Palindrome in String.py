@@ -10,3 +10,14 @@ if num == reverse:
     print("It is a Palindrome")
 else:
     print("Not a Plaindrome")
+
+#         (OR)
+
+name1 = input("Enter name? ")
+name2 = name1[::-1]
+print(name2)
+
+if name1 == name2 :
+    print("It is a Palindrome")
+else:
+    print("It is not a Palindrome")
